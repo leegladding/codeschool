@@ -22,17 +22,24 @@ article {
 	width: 100%;
 	background-color: #cccccc;
 }
-article h1{
-	width: 200px;
+h2{
 	background-color: blue;
 	color: white;
 	text-align: center;
-	margin: 0 auto;
 	font-weight: bold;
 	font-size: 24px;
 }
-article div{
-	height: 100px;
-	width: 50%;
+article{
 	background-color: #999;
+	overflow: hidden;
+}
+
+article p {
+	padding-top: 20px;
+}
+
+img {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
 }
